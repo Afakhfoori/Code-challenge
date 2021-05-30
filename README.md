@@ -1,7 +1,7 @@
 # Bunnings Code challenge 
 This code has been created to address the challenge with details in this repo: https://github.com/tosumitagrawal/codingskills
 
-# Tech Stach:
+# Tech Stack:
 - C#, .Net Core 5 with MVC Application has been used to implement this code.
 - Nunit has been used for testing purposes
 
