@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BunningsCataloge", "BunningsCataloge\BunningsCataloge.csproj", "{32F02BBE-2F6D-4FAD-8F80-7FAAA4C00317}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{8BD7E721-1045-412E-9635-6AD32542C9C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestMegaMerg", "TestMegaMerg\TestMegaMerg.csproj", "{1F999C14-827A-4C82-A60A-5FDB4238ABAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{42F36CF6-BCCA-4498-9E32-9A867D1D4E56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "input", "input", "{1915CDAF-C523-4C85-8F49-E3C19E1B3397}"
+	ProjectSection(SolutionItems) = preProject
+		input\barcodesA.csv = input\barcodesA.csv
+		input\barcodesB.csv = input\barcodesB.csv
+		input\catalogA.csv = input\catalogA.csv
+		input\catalogB.csv = input\catalogB.csv
+		input\suppliersA.csv = input\suppliersA.csv
+		input\suppliersB.csv = input\suppliersB.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "output", "output", "{E37FB0F2-3EB4-49EA-AFA1-0E9715DB9585}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32F02BBE-2F6D-4FAD-8F80-7FAAA4C00317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F02BBE-2F6D-4FAD-8F80-7FAAA4C00317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F02BBE-2F6D-4FAD-8F80-7FAAA4C00317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F02BBE-2F6D-4FAD-8F80-7FAAA4C00317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD7E721-1045-412E-9635-6AD32542C9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD7E721-1045-412E-9635-6AD32542C9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD7E721-1045-412E-9635-6AD32542C9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD7E721-1045-412E-9635-6AD32542C9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F999C14-827A-4C82-A60A-5FDB4238ABAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F999C14-827A-4C82-A60A-5FDB4238ABAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F999C14-827A-4C82-A60A-5FDB4238ABAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F999C14-827A-4C82-A60A-5FDB4238ABAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F36CF6-BCCA-4498-9E32-9A867D1D4E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F36CF6-BCCA-4498-9E32-9A867D1D4E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F36CF6-BCCA-4498-9E32-9A867D1D4E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F36CF6-BCCA-4498-9E32-9A867D1D4E56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEB13E99-0F46-4461-A825-DE7ED82908FF}
+	EndGlobalSection
+EndGlobal

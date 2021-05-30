@@ -1,0 +1,31 @@
+﻿@model BunningsCataloge.Models.FolderModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @if(!string.IsNullOrEmpty(ViewBag.SuccessMessage)){
+    <div class="alert alert-success">@ViewBag.SuccessMessage</div>
+    }
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <h1 class="display-4">Welcome to Mega merge software</h1>
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+    <div class="form-group">
+        <label asp-for="Input"> Input Folder:</label>
+        <input asp-for="Input" class="form-control" />
+        <span asp-validation-for="Input" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Output"> Output Folder:</label>
+        <input asp-for="Output" class="form-control" />
+        <span asp-validation-for="Output" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Merge" class="btn btn-primary"/>
+    </div>
+    }
+
+</div>
